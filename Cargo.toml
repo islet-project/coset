@@ -15,8 +15,8 @@ default = []
 std = []
 
 [dependencies]
-ciborium = { version = "^0.2.1", default-features = false }
-ciborium-io = { version = "^0.2.0", features = ["alloc"] }
+ciborium = { version = "^0.2.1", default-features = false, path = "../ciborium/ciborium"}
+ciborium-io = { version = "^0.2.0", features = ["alloc"], path = "../ciborium/ciborium-io"}
 
 [dev-dependencies]
 hex = "^0.4.2"
